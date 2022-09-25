@@ -3,7 +3,7 @@ modoboa-installer
 
 |travis| |codecov|
 
-An installer which deploy a complete mail server based on Modoboa.
+An installer which deploys a complete mail server based on Modoboa.
 
 .. warning::
 
