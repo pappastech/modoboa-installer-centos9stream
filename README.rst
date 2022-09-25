@@ -1,17 +1,16 @@
 modoboa-installer
 =================
 
-|travis| |codecov|
+|travis| |codecov| |pappastech|
 
 An installer which deploy a complete mail server based on Modoboa.
 
 .. warning::
 
-   This tool is still in beta stage, it has been tested on:
+   This tool is still in alpha stage, it has been tested on:
 
-   * Debian Buster (10) / Bullseye (11)
-   * Ubuntu Bionic Beaver (18.04) and upper
-   * CentOS 7
+   * CentOS Stream 9 - there are still a number of errors, but it seems to
+   install at this point
 
 .. warning::
       
@@ -29,10 +28,8 @@ Usage::
 
   $ git clone https://github.com/modoboa/modoboa-installer
   $ cd modoboa-installer
-  $ sudo python3 run.py <your domain>
+  $ sudo python run.py <your domain>
 
-
-If ``python3`` is not installed on your system, please install it.
 
 A configuration file will be automatically generated the first time
 you run the installer, please don't copy the
