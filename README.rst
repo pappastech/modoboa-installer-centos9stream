@@ -1,7 +1,7 @@
 modoboa-installer
 =================
 
-|travis| |codecov| |pappastech|
+|travis| |codecov|
 
 An installer which deploy a complete mail server based on Modoboa.
 
